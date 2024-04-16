@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Scanner sc =new Scanner(System.in);
+		int lula;
+		
+		System.out.println("de quem você quer saber? ");
+		lula = sc.nextInt();
+		
+		if (lula == 13) {
+			System.out.println("Lula - ladrão safado!");
+		}
+	sc.close();
+	}
+}
